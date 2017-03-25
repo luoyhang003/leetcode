@@ -66,8 +66,6 @@ public:
     void backtrace(vector<vector<string>> &vec, vector<string> &temp, string s, int start){
         if(start == s.length()){
             vec.push_back(temp);
-
-
         }
         else{
             for(int i = start; i < s.length(); i++){
@@ -134,3 +132,4 @@ public:
     }
     
 };
+

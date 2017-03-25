@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9680B0751E82394F008A2EAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9680B0741E82394F008A2EAE /* main.cpp */; };
 		9680B07C1E823970008A2EAE /* lc131.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9680B07B1E823970008A2EAE /* lc131.cpp */; };
+		96FF74511E86355200CD5A9A /* lc079.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96FF74501E86355200CD5A9A /* lc079.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		9680B0711E82394F008A2EAE /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		9680B0741E82394F008A2EAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9680B07B1E823970008A2EAE /* lc131.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lc131.cpp; sourceTree = "<group>"; };
+		96FF74501E86355200CD5A9A /* lc079.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lc079.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				9680B0741E82394F008A2EAE /* main.cpp */,
+				96FF74501E86355200CD5A9A /* lc079.cpp */,
 				9680B07B1E823970008A2EAE /* lc131.cpp */,
 			);
 			path = LeetCode;
@@ -124,6 +127,7 @@
 			files = (
 				9680B07C1E823970008A2EAE /* lc131.cpp in Sources */,
 				9680B0751E82394F008A2EAE /* main.cpp in Sources */,
+				96FF74511E86355200CD5A9A /* lc079.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +254,7 @@
 				9680B07A1E82394F008A2EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
