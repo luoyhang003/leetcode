@@ -7,39 +7,27 @@
 //
 
 #include <iostream>
-#include "lc079.cpp"
-int main(int argc, const char * argv[]) {
+#include <vector>
+#include "lc026.cpp"
+
+using namespace std;
+int main() {
     Solution s;
     
-    vector<char> v1;
-    v1.push_back('a');
-    v1.push_back('a');
-//    v1.push_back('C');
-//    vector<char> v2;
-//    v2.push_back('F');
-//    v2.push_back('E');
-//    v2.push_back('D');
-//    vector<char> v3;
-//    v3.push_back('C');
-//    v3.push_back('Q');
-//    v3.push_back('B');
+    vector<int> v;
+    v.push_back(1);
+    v.push_back(1);
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(3);
+    v.push_back(4);
+    v.push_back(4);
     
-    vector<vector<char>> matrix;
-    matrix.push_back(v1);
-//    matrix.push_back(v2);
-//    matrix.push_back(v3);
+    cout << s.removeDuplicates(v) <<endl;
     
-    for(int i = 0; i < matrix.size(); i++){
-        for(int j = 0; j < matrix[i].size(); j++){
-            cout << matrix[i][j] << " ";
-        }
-        cout << endl;
-    }
-    
-    if(s.exist(matrix, "aa")){
-        cout << "TRUE" << endl;
-    }
+    for(int i = 0; i < v.size(); i++)
+        cout<<v[i]<<endl;
 
-    
 
 }
